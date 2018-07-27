@@ -1,8 +1,21 @@
-console.log('hi');
+interface Person {
+    name: string;
+}
 
-import {Car} from './Car';
+class Person{
+    constructor(name){
+        this.name = name;
+        console.log(this.name + " Constructor");
+    }
+    static staticMethod(){
+        console.log("Static Method");
+    }
+    greetPerson(){
+        console.log("Hello " + this.name);
+    }
+}
 
-const car: Car = new Car();
-
-car.go();
-
+let p1 = new Person("Rani");
+let p2 = new Person("Abdallah");
+Person.staticMethod();
+p2.greetPerson();

@@ -1,8 +1,5 @@
-console.log('hi');
+import firstName from './module'; // Capturing the default in a variable
+import {default as f} from './module' // Provide alias for importing default
 
-import {Car} from './Car';
-
-const car: Car = new Car();
-
-car.go();
-
+console.log(firstName);
+console.log(f);

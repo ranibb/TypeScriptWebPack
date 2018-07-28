@@ -2,9 +2,10 @@
 
 Typescript playground
 
-## Development server
+## Modules - Named Exports
 
-Run `npm start` for a dev server. Navigate to `http://localhost:9000/`. The app will automatically reload if you change any of the source files.
-
-## TypeScript compilation in watch mode
-Run `tsc --watch` for watch in terminal.
+* You can import variables from a file/module.
+* Variables imported are read-only and can't be assigned.
+* Variable can be imported as alias.
+* You can import objects from a file/module.
+* properties of the imported object can be reassigned with values.

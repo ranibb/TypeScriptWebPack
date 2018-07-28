@@ -1,8 +1,10 @@
-console.log('hi');
+// import {fname, lname} from './module';  // Importing variable
 
-import {Car} from './Car';
+import {fname as f, lname as l, obj} from './module'; // Importing variable as alias
 
-const car: Car = new Car();
+obj.name = "Abdallah";
 
-car.go();
+console.log(`${f} ${l}`);
+
+console.log(obj.name);
 

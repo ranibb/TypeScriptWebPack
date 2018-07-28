@@ -1,8 +1,6 @@
-console.log('hi');
+import {greet, GreetMessage} from './module';
 
-import {Car} from './Car';
+greet("Hi!")
 
-const car: Car = new Car();
-
-car.go();
-
+let gm = new GreetMessage();
+gm.greet();

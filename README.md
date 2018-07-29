@@ -2,9 +2,6 @@
 
 Typescript playground
 
-## Development server
-
-Run `npm start` for a dev server. Navigate to `http://localhost:9000/`. The app will automatically reload if you change any of the source files.
-
-## TypeScript compilation in watch mode
-Run `tsc --watch` for watch in terminal.
+## Map
+* Map is an ordered list of (key,value) pairs.
+* Both key and value can be of any type, unlike object where the type of the property is always a string.

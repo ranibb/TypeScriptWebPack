@@ -1,8 +1,11 @@
-console.log('hi');
+function *createGenerator () {
+    yield 1;
+    console.log("After 1st yield");
+    yield 2;
+}
 
-import {Car} from './Car';
+let myGen = createGenerator();
 
-const car: Car = new Car();
-
-car.go();
-
+console.log(myGen.next());
+console.log(myGen.next());
+console.log(myGen.next());

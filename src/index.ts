@@ -1,8 +1,5 @@
-interface Person {
-    name: string;
-}
-
 class Person{
+    public name:string
     constructor(name){
         this.name = name;
         console.log(this.name + " Constructor");

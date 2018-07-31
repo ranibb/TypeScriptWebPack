@@ -1,8 +1,6 @@
 class Person{
-    public name:string
-    constructor(name){
-        this.name = name;
-        console.log(this.name + " Constructor");
+    constructor(public name:string){
+        console.log(name + " Constructor");
     }
     static staticMethod(){
         console.log("Static Method");

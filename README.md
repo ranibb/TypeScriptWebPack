@@ -2,9 +2,6 @@
 
 Typescript playground
 
-## Development server
-
-Run `npm start` for a dev server. Navigate to `http://localhost:9000/`. The app will automatically reload if you change any of the source files.
-
-## TypeScript compilation in watch mode
-Run `tsc --watch` for watch in terminal.
+## Decorators
+* A decorator is a special type of declaration that can be attached to classes, methods or properties.
+* Decorators get evaluated in a function that will be called at run time.
